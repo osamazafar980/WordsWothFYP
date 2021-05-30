@@ -1,0 +1,267 @@
+.DashApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 90%;
+}
+.DashBoard{
+  width:100%;
+  height: 100%;
+  padding-bottom:5%;
+  margin-top: 10%;
+  background-color: #00000060;
+}
+#dashRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+#dashSectionL{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+}
+#dashSectionL p{
+  font-weight: 100;
+  font-size:24px;
+  color: white;
+}
+#dashOptions{
+  width: 80%;
+  border: 1px solid white;
+  margin-left:10%;
+  display: flex;
+  flex-direction: column;
+}
+#dashOptionsButton{
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  margin-left: 20%;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  height: 50px;
+  border-top: 1px solid #FFFFFF99;
+  border-bottom: 1px solid #FFFFFF99;
+  border-right: 1px solid #FFFFFF99;
+  border-left: 1px solid #FFFFFF99;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #00000060;
+}
+#dashOptionsButton:hover{
+  outline: none;
+  background-color: #FFFFFF60;
+  color: black;
+}
+#dashOptionsButtonLast{
+  width: 60%;
+  margin-bottom: 20px;
+  padding: 12px 20px;
+  margin-left: 20%;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  height: 50px;
+  border-top: 1px solid #FFFFFF99;
+  border-bottom: 1px solid #FFFFFF99;
+  border-right: 1px solid #FFFFFF99;
+  border-left: 1px solid #FFFFFF99;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #00000060;
+  margin-bottom: 20%;
+}
+#dashOptionsButtonLast:hover{
+  outline: none;
+  background-color: #FFFFFF60;
+  color: black;
+}
+#dashSectionR{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+#dashSectionR p{
+  font-weight: 100;
+  font-size:24px;
+  color: white;
+  padding-top: 1%;
+}
+#dashStatsReportsUpdate{
+  width: 20%;
+  margin-bottom: 20px;
+  margin-top:5% ;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  height: 50px;
+  border-top: 1px solid #FFFFFF99;
+  border-bottom: 1px solid #FFFFFF99;
+  border-right: 1px solid #FFFFFF99;
+  border-left: 1px solid #FFFFFF99;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #00000060;
+}
+#dashStatsReportsUpdate:hover{
+  outline: none;
+  background-color: #FFFFFF60;
+  color: black;
+}
+#dashStatsReportsUpdateProgress{
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top:5% ;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  height: 50px;
+  border-top: 1px solid #FFFFFF99;
+  border-bottom: 1px solid #FFFFFF99;
+  border-right: 1px solid #FFFFFF99;
+  border-left: 1px solid #FFFFFF99;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #00000060;
+}
+.dashLoginBg{
+  width: 50%;
+  margin-left: 25%;
+  padding-top: 10%;
+}
+.dashCreateBox{
+  margin-top: 1;
+  text-align: center;
+}
+.reportBox{
+  margin-left: 20%;
+}
+#reportHeader{
+  font-size: 24px;
+  line-height: 64px;
+  color: white;
+  font-weight: 100;
+}
+#reports{
+text-align: justify;
+}
+#report{
+  width: 60%;
+  color: white;
+  border: 1px solid white;
+  text-align: justify;
+  display: flex;
+  flex-direction: row;
+}
+#report div{
+  width: 80%;
+}
+#name{
+  margin-left: 5%;
+  font-size: 16px; 
+  font-weight: 100;
+}
+#problem{
+  margin-left: 5%;
+  font-size: 16px; 
+  font-weight: 100;
+}
+#reportButton{
+  width: 20%;
+  margin-right: 10%;
+  margin-top: 3%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  background: transparent;
+  color: white;
+  height: 50px;
+  border-top: 1px solid #FFFFFF99;
+  border-bottom: 1px solid #FFFFFF99;
+  border-right: 1px solid #FFFFFF99;
+  border-left: 1px solid #FFFFFF99;
+  border-radius: 20px 20px 20px 20px;
+  background-color: #00000060;
+}
+#reportButton:hover{
+  outline: none;
+  background-color: #FFFFFF60;
+  color: black;
+}
+#backBox{
+  display: flex;
+  flex-direction: row-reverse;
+}
+@media only screen and (max-width: 1200px) {
+#dashSectionL{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+#dashSectionR{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+#dashStatsReportsUpdate{
+  width: 30%;
+}
+
+}
+@media only screen and (max-width: 900px) {
+#dashSectionL{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#dashSectionR{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+#dashStatsReportsUpdate{
+  width: 40%;
+}
+}
+@media only screen and (max-width: 400px) {
+#dashRow{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+#dashSectionL{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#dashSectionR{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+#dashStatsReportsUpdate{
+  width: 60%;
+}
+#dashOptionsButton{
+  width: 80%;
+  margin-left: 10%;
+}
+#dashOptionsButtonLast{
+  width: 80%;
+  margin-left: 10%;
+}
+#dashSectionR p{
+  font-weight: 100;
+  font-size:20px;
+  color: white;
+  padding-top: 0px;
+}
+.createBox{
+  background-image: linear-gradient(to bottom right, #03001e,#7303c0,#ec38bc);
+  height:100vh;
+}
+}
